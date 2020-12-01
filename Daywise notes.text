@@ -1,0 +1,170 @@
+30-11-2020:
+===========
+	Good Afternoon to All.
+	
+	OOPS:
+	====
+	oops => Object Oriented Programming
+	
+	- Better Security
+	- Large program can be divided into smaller parts
+	- Hiding of data[Packages]
+	- in python programming every variable is considerd to be as a object
+	- code reuseability
+	
+	Properties:
+	==========
+	- class
+	- object
+	- methods
+	- Inheritance
+	- Polymorphism
+	- Data Abstraction
+	- Encapsulation
+
+	Class:[Design]
+	==============
+	- It is a blue print of an object
+	- Collection of member variables and Methods
+	- Syntax:
+		class class_name:
+			'''documentation'''
+			variables
+			methods
+		
+		Classnames:
+		----------
+		-> Starts with Capital letter and _
+		-> Shouldn't starts with numbers
+		-> Shouldn't include any spaces between class name
+		-> Shouldn't include special characters except "_"
+	
+		
+		=> a = 10
+		=> print(type(a))
+		
+	Functions Vs Methods:
+	====================
+	-> Function => To perform a specific Task.
+	-> Method => Similar to Function but we can inlcude those function inside of a class
+	
+	Object:[Completed product]
+	=========
+	- Instance of a class
+	- Real Time entity
+	- Syntax:
+		object_name = Class_name
+	
+	Constructor:
+	============
+	-> Syntax:
+	   def __init__(self):
+			return ?
+	
+	-> 2 types:
+		- Default
+		- Parameterised
+	
+	Packages and Modules by using OOP's:
+	
+	Inheritance:[Relationship]
+	==========================
+	- Acquring the properties from parent[Base Class] to child[Derived Class]
+	- Types of Inheritance:
+		- Single -> 1 => Parent,1 => child
+		- Multilevel -> 2 => Parents,1 => Child[parent-1=>parent2]
+		- Multiple => 2 => Parents,1=> child[2 parents,Parent-Parent => x] 
+		- Hybrid => All combination of Inheritances
+		- Heirarichael => 1 Parent,2 => Childs
+	
+	Mobile:
+	=======
+	Redmi => Blueprint => plan => Design
+	
+	completed product => Object
+	
+Day-2[01-12-2020]:
+==================
+	Good Afternoon to All...
+	
+	Django:
+	=======
+	- Web Application framework [Python]
+	- High Security[Admin,user => own flow]
+	- Large Applications to create easily within a given time period
+	- MVC => MVT
+	
+	Python:
+	=======
+	- cmd => python -V
+	
+	Editor:
+	=======
+	- Sublime Editor[Tree structure]
+	
+	Django Installation:
+	====================
+	- pip command
+	- pip install django => Latest version of django
+				or
+		- pip install django==3.0 
+	- To check whether the django is installed or not?
+		- python
+		-> >>> import django
+		   >>> django.__version__
+	
+	- django-admin --version
+	
+
+	Project Creation:
+	=================
+	- First enter into a path where we need to create a project
+	- cmd
+		- django-admin startproject "projectname"
+		ex:
+		  django-admin startproject DjangoTOT
+	
+	- DjangoTOT
+		- DjangoTOT [Admin App]
+		- manage.py [Services will starts from here]
+	
+	- DjangoTOT:
+		- init -> It should be considered to be as a python file
+		- asgi -> Asynchronous Gateway Interface
+		- settings -> html,css,js,images, 
+		- wsgi -> WebSocket Gateway Interface
+		- urls -> checking
+
+	Running of a project:
+	=====================
+	- first we need to enter into a path where manage.py is existing
+	- cmd
+		- python manage.py 
+			or
+		- manage.py	
+		
+	- python manage.py runserver
+	- manage.py runserver
+	
+	-> localhost => 127.0.0.1
+	
+	http://127.0.0.1:8000 
+	
+	localhost:8000
+	
+	Ports are blocked:
+	------------------
+	- python manage.py runserver 1234
+	- manage.py runserver 1234
+	
+	localhost:1234 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,5 +1,5 @@
-30-11-2020:
-===========
+Day-1[30-11-2020]:
+==================
 	Good Afternoon to All.
 	
 	OOPS:
@@ -159,11 +159,76 @@ Day-2[01-12-2020]:
 	
 	localhost:1234 
 	
+Day-3[02-12-2020]:
+==================
+	Good Afternoon to All..
+	
+	UserApp Creation:
+	=================
+	- manage.py
+		- manage.py startapp "appname"
+		ex:
+			- manage.py startapp djtot
+
+	Userapp Files:
+	==============
+	- init -> It should be considered to be as a python
+	- admin -> tables to be viewed in an admin page 
+	- apps -> configurations
+	- models -> Database -> table,fields
+	- views -> function[work], methods
+	- tests -> unit testing
+	
+	MVC:
+	===
+	M -> Model => [Database]
+	V -> View => html,css,js
+	C -> Controller => .py,.java,.net[Controller]
+	
+	
+	MVT:
+	===
+	M -> Model => [Database]
+	V -> View[Controller] => url -> views -> function[Logics] 
+	T -> Template => html,css,js[DTL => Django Template Language]
+	
+	
+	
+	Settings.py:
+	============
+	-> Userapp Configured
+	-> url => Create
+		
+		syntax:
+			path('urlname/',modulename.functionname,name="userdefinedname")
+	
+	url => view => HttpResponse
+				=> [Html tags]
+				=> [CSS]
+				
+	->Dynamic Url Mapping:
+		localhost:8000/rcd/rajesh
+		
+		Hi Welcome Rajesh
+	
+	localhost:8000/tb/2/
+	
+	2 x 01 = 02
+	2 x 02 = 04
+	2 x 03 = 06
+	2 x 04 = 08
+	2 x 05 = 10
 	
 	
 	
 	
 	
+	
+	
+	
+	
+	
+		
 	
 	
 	

@@ -219,6 +219,52 @@ Day-3[02-12-2020]:
 	2 x 04 = 08
 	2 x 05 = 10
 	
+03-12-2020:
+===========
+
+	Good Afternoon to All..
+	
+	url => 2 parameters(name,age) => views => template[.html]
+	
+	Templates are configured or not?
+	
+	templates[only .html files]
+		- html
+	
+	r = {"n":name,"a":age}
+	render(request,'path of .html[templates]',r)
+	render(request,'path of .html',{"na":name,"ag":age})
+	
+	templates:
+	==========
+		djtot
+			-> templates
+				-> index.html
+		
+		djbt
+			-> templates
+				-> index.html
+				
+	templates:
+		-> djtot
+			-> index.html
+		-> djbt
+			-> index.html
+	Static
+		css
+		images
+		audio/video
+	
+	Django Template Language:[DTL]
+	==============================
+	
+	url -> views -> py -> .html
+	ajax,js
+	registration -> json [dictionary] -> serverside -> database
+	
+	Variable:
+	========
+	{{}}
 	
 	
 	

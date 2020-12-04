@@ -252,6 +252,7 @@ Day-3[02-12-2020]:
 			-> index.html
 	Static
 		css
+		js
 		images
 		audio/video
 	
@@ -265,6 +266,56 @@ Day-3[02-12-2020]:
 	Variable:
 	========
 	{{}}
+
+
+04-12-2020:
+===========
+	Good Afternoon to All...
+	
+	templates -> tags -> styling
+	
+	url => views => html
+	
+	CSS => Cascading Style sheet -> color,alignments,size 
+	----
+	Inline -> inside of tags by using style attribute 
+	Internal -> <style>
+				tagname
+				{
+					property:value;
+				}
+				</style>
+				
+	selectors => tagname, class, id 
+	External -> .css => all style property and value can be stored in other .css
+	
+	Static:
+	-------
+	settings.py:
+	
+	static = '/static/'
+	
+	{% load static %}
+	
+	css -> href="{% static 'css/sample.css' %}"
+	
+	js
+	==
+	
+	<script>
+	//
+	</script>
+	
+	css
+	jquery
+	js
+	
+	Task:
+	=====
+	
+	Create a login Page internal Styling
+	
+	Create Registration page by using External Styling
 	
 	
 	
@@ -274,8 +325,14 @@ Day-3[02-12-2020]:
 	
 	
 	
-		
 	
 	
+	
+	
+	
+	
+	
+	
+
 	
 	

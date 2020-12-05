@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+	<style type="text/css">
+		form
+		{
+			margin-left: 430px;
+			margin-right: 430px;
+			background-color: cadetblue;
+			border-radius: 23px;
+		}
+		input
+		{
+			margin-top: 9px;
+			margin-bottom: 9px;
+			margin-left: 73px;
+		}
+		button
+		{
+			color:green;
+			border-radius: 12px;
+			margin-left: 100px;
+			font-size: 12px;
+			padding:9px;
+			background-color: red;
+			/*float:right; */
+		}
+	</style>
+	<!-- <script type="text/javascript">
+		alert("Hi Welcome")
+	</script> -->
+</head>
+<body>
+<h2>Javascript Files</h2>
+<form>
+	<input type="text" name="n" placeholder="Enter Your Name" id="n1"><br/>
+	<input type="number" name="a" placeholder="Enter Your Age" id="n2"><br/>
+	<!-- <button type="submit" onClick="Ad()">Submit</button> -->
+	<input type="submit" onClick="Ad()" value="Submit">
+</form>
+<script type="text/javascript" src="{% static 'js/sample.js' %}"></script>
+</body>
+</html>

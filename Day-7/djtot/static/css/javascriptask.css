@@ -1,0 +1,17 @@
+form
+{
+	margin-left: 30%;
+    margin-top: 9%;
+    margin-right: 30%;
+    background-color: lightseagreen;
+    border-radius: 23px;
+    padding: 30px;
+}
+
+input
+{
+	padding: 9px;
+    background-color: burlywood;
+    border-radius: 12px;
+    width: 90%;
+}

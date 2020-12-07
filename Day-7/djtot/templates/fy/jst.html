@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Task</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/javascriptask.css' %}">
+	<style type="text/css">
+		#bt
+		{
+			background-color: green;
+			padding:12px;
+			width:50%;
+			font-size: 20px;
+			color:white;
+		}
+	</style>
+</head>
+<body>
+<form>
+	<input type="number" id="fval" placeholder="Enter First value"><br/><br/>
+	<input type="number" id="sval" placeholder="Enter Second value"><br/><br/>
+	<input type="button" Value="Validate" id="bt" onclick="art()">
+</form>
+<h2 style="margin-left:30%">Output:</h2>
+<h4 style="margin-left:30%;background-color: cadetblue;font-size:23px;color:white;padding:23px;margin-right:30%;" id="res"></h4>
+<script type="text/javascript" src="{% static 'js/javascriptask.js' %}"></script>
+<img src="{% static 'images/demo.jpg' %}">
+</body>
+</html>

@@ -361,10 +361,69 @@ Bootstrap:
 	- Offline
 	
 	
+08-12-2020:
+===========
+	Good Afternoon to All...
 	
+	site, .html => css,js
+	css -> tag,id,class
 	
+	Boostrap:
+	=========
+	included css,js
+	class = style
+	form,input,button,radio button,dropdown -> class 
 	
+	css
+	jquery -> event[inbuilt]
+	js -> DOM 
 	
+	id => exact
+	class => all
+	class, id => changes
+	
+	styling:
+	-------
+	h4
+	{
+		margin-left:20px;
+		margin-right:20px;
+		background-color:green;
+	}
+	
+	<h4 class="mx-20 bg-green"></h4>
+	
+	mx-1 => 4px
+	padding => point => 1 - 5
+	x => left,right
+	y => top,bottom
+	
+	p - 3
+	m - 3
+	pl-2 , pr-3, pt-2, pb-1
+	ml-2 , mr-3, mt-2, mb-1
+	
+	Grid:
+	=====
+	columns => 12
+	col-md-6
+		col-md-6
+	md,lg,sm,xm
+	
+	col-md-5
+	col => 7
+	12 / 3 => 4
+	
+	primary,success,danger,warning,light,info,secondary,dark
+	
+	shadow -> large, medium, small
+	
+	labels => id
+	input => for
+	
+	Registration Page:
+	==================
+	input => textbox,password,dropdown -> bootstrap
 	
 	
 	

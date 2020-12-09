@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="card mt-5 mx-auto col-md-6">
+			<div class="card-body">
+				<h2 class="bg-dark text-white text-center p-2 border rounded">Login Form</h2>
+				<form method="post">
+					{% csrf_token %}
+					<input type="text" name="usname" placeholder="Enter Username" class="form-control my-2 col-md-10 mx-auto">
+					<input type="password" name="pswd" placeholder="Enter your Password" class="form-control col-md-10 my-2 mx-auto">
+					<input type="submit" value="Login" class="btn btn-success btn-block">
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

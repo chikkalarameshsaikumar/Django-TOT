@@ -424,7 +424,87 @@ Bootstrap:
 	Registration Page:
 	==================
 	input => textbox,password,dropdown -> bootstrap
+
+09-12-2020:
+===========
+	Good Afternoon to All....
 	
+	url -> views -> html -> views -> html
+	
+	DTL => Django Template Language:
+	================================
+	.py => html
+	
+	variable => {{}}
+	conditional statement:
+	=====================
+	-> if
+	{% if condition %}
+		//stmnt
+	{% endif %}
+	
+	-> if-else
+	
+	{% if condition %}
+		//stmnt-1
+	{% else %}
+		//stmnt-2
+	{% endif %}
+	
+	-> elseif
+	
+	{% if condition %}
+		//stmnt-1
+	{% elif condition %}
+		//stmnt-2
+		|    |      |
+	{% else %}
+		//stmnt-n
+	{% endif %}
+	
+	Loop:
+	=====
+	- for
+	
+	{% for iterationvariablename in iterator %}
+		//stmnt
+		{{iterationvariablename}}
+	{% endfor %}
+	
+	url,static,img => {% url 'urlname' %}
+	{% load static %}
+	<img src="{% static 'images/logo.png' %}">
+	
+	{% extends '' %}
+	{% include "" %}
+	
+	Bootstrap -> Offline:
+	=====================
+		-> Bootstrap
+		
+	form:
+	=====
+	method="get"
+	methods -> GET,POST
+	
+	GET: -> GET[default]
+	passing of data can be viewed in url of a browser
+	characters limit
+	database => get
+	
+	POST: -> secure data [sensitive info]
+	characters has no limit
+	form -> data -> save
+	
+	form submit -> form tag {% csrf_token %}
+	
+	Task:
+	========
+	Login form -> username and password -> validate -> True
+		-> hi welcome user ?
+		-> Invalid Username
+		
+	Registration -> Details -> .html => viewed 
 	
 	
 	

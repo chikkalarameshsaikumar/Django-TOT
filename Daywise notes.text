@@ -506,7 +506,40 @@ Bootstrap:
 		
 	Registration -> Details -> .html => viewed 
 	
+10-12-2020:
+===========
+11-12-2020:
+===========
+12-12-2020:
+===========
+14-12-2020:
+===========
+
+15-12-2020:
+===========
+## Good Afternoon All:
+
+### Dynamic Html Form Genearation:
+	-------------------------------
+	- for generatring dynamic html form we
+	 have 2 dif ways
+	 -- by using forms.py
+		- we need to create a file with name of forms.py
+		 inside app.
+		- inside forms.py we have to import forms.py which is 
+			belongs to django.
+	 -- by using models.py(based on tables field)
 	
+	-- Task1:you have to apply bootstrap for that html form
+	-- Task2: after submitting data you need to display it 
+	in another .html file
+
+
+
+
+
+
+
 	
 	
 	

@@ -534,7 +534,11 @@ Bootstrap:
 	-- Task2: after submitting data you need to display it 
 	in another .html file
 
-
+16-12-2020:
+===========
+## Good Afternoon All:
+	- generating html form using models.py
+	
 
 
 

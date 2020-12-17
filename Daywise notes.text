@@ -540,8 +540,26 @@ Bootstrap:
 	- generating html form using models.py
 	
 
+17-12-2020:
+===========
+## Good Afternoon All:
 
+CRUD:
+	-- to transfer data from html page to controller file we nhave 2 diff methods
+		-- Get: for better security we dont prefor get method
+			-- it will shows entire data at url part
+		-- Post: post will provide better security
+	-- using basic procedure
+		-- in basic proceduer we need to write everything
+	-- crud with forms.py
 
+	-- generic
+
+	task:
+	-- design a home page with name of home.html
+		-- in that create 2 options with register and disply in  nave bar
+		-- when u click on register navigate page from home. page to register page
+		-- in same way u have to navigate request from home to disply page
 
 
 	

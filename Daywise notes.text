@@ -562,8 +562,49 @@ CRUD:
 		-- in same way u have to navigate request from home to disply page
 
 
+18-12-2020:
+==========
+	Good Afternoon to All..
+	task:
+	-- design a home page with name of home.html
+		-- in that create 2 options with register and disply in  nave bar
+		-- when u click on register navigate page from home. page to register page
+		-- in same way u have to navigate request from home to disply page
 	
+	DTL:
+	====
 	
+	extends
+	inlcude
+	
+19-12-2020:
+===========
+	Good Afternoon to All...
+	
+	what is the difference between forms.Form and forms.ModelForm? -> Anil
+	
+	forms.Form => forms -> Form -> basic
+	
+	forms.ModelForm => existing, user defined Model
+		=> ModelForm
+	
+	forms:
+	======
+		CRUD
+	
+	Model:
+	======
+		C,R,U,D
+	
+	DTL:
+	====
+		{% extends %}
+		{% include %}
+		{% block title %} {% endblock %}
+		{% block content %}{% endblock %}
+	
+	Xampp => .exe
+	pip install mysqlclient 
 	
 	
 	

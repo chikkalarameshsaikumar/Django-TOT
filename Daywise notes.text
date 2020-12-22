@@ -667,6 +667,53 @@ CRUD:
 	{{k}}
 	{% endfor %}
 	{% endif %}
+
+
+22-12-2020:
+===========
+	Good Afternoon to All.....
+	
+	User -> create [Existing model]
+	Login  -> generics -> class
+	Logout -> 
+	
+	class => LoginView,LogoutView,ListView,DetialView,CreateView
+	
+	def func_name(self):
+		return render(self,'path of html',{context})
+	
+	urls.py:
+	========
+	
+	from django.contrib.auth import view as v
+	
+	path('/',v.LoginView.as_view(template_name="path of html"),name="lg"),
+	
+	
+	settings.py:
+	=============
+	
+	LOGIN_URL = ''
+	LOGIN_REDIRECT = 'dsh'
+	
+	
+	navbar.html:
+	============
+	authenticated => view [link]
+	
+	decorators:
+	===========
+	views -> function -> url [url type]
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 

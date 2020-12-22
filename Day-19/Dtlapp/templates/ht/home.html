@@ -1,0 +1,17 @@
+{% extends 'ht/base.html' %}
+{% block title %} Home {% endblock %}
+{% block content %}
+<div class="container">
+	{% if messages %}
+	{% for j in messages %}
+	<div class="alert alert-{{j.tags}} alert-dismissible mt-2">
+  		<button type="button" class="close" data-dismiss="alert">&times;</button>
+  		{{j}}
+	</div>
+	{% endfor %}
+	{% endif %}
+  <div class="jumbotron col-md-8 mx-auto mt-4">
+    <h2>This is Home page</h2>
+  </div>
+</div>
+{% endblock %}

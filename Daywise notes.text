@@ -575,7 +575,7 @@ CRUD:
 	====
 	
 	extends
-	inlcude
+	include
 	
 19-12-2020:
 ===========
@@ -606,24 +606,67 @@ CRUD:
 	Xampp => .exe
 	pip install mysqlclient 
 	
+21-12-2020:
+===========
+	Good Afternoon to All......
+	
+	Model => forms -> widget => html
+	
+	Existing model
 	
 	
+	Xampp => Apache
+	
+	Mysql => Database,postgres,nosql,mongo db
+	
+	configurations:[settings.py]
+	============================
+	
+	DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'database_name',
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': '',
+		}
+	}
+	
+	xampp => installations [apache => 80]
+	mysql => [3306]
+	
+	forms => mysql_client => Mysql 
+	
+	registration =>
+	
+	url => views => forms => [import models]
+						widget => 
+			views <=
+				  => html => views => models
+	
+	Messages:[Notification]:
+	========================
+	
+	views.py:
+	=========
+	from django.contrib import messages
 	
 	
+	success
+	info
+	warning
+	debug
 	
+	message.success(request,"something message")
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	html:
+	=====
+	{% if messages %}
+	{% for k in messages %}
+	{{k}}
+	{% endfor %}
+	{% endif %}
 	
 	
 

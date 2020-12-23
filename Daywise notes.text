@@ -704,6 +704,64 @@ CRUD:
 	decorators:
 	===========
 	views -> function -> url [url type]
+
+
+23-12-2020:
+===========
+	Good Afternoon to All....
+	
+	Profile: => existing Model => auth_user
+	
+	url,view,profile
+	
+	Extra fields => own models
+	
+	age,image,gender,
+	
+	null = True
+	
+	OWN => Model
+	
+	User => Own Model
+	
+	m.id = user.id
+	
+	
+	signals:
+	=======
+	
+	User => 
+		User => minimum [data]
+		Own  => Relationship [link]
+	
+	subscribe => minimum [data]
+	
+	Own models => Table data update 
+	
+	models:
+	=======
+	migrations => delete
+		create
+	migrate
+	
+	xampp
+		-> database_name => drop
+		-> create database
+	
+	registration => user => own => id => ?
+	
+	
+	Image => pip install pillow
+	
+	
+	
+	
+	
+	
+
+
+
+
 	
 	
 	

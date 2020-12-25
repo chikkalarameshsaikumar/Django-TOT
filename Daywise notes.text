@@ -752,28 +752,83 @@ CRUD:
 	
 	
 	Image => pip install pillow
+
+24-12-2020:
+===========
+	Good Afternoon to All...
+	
+	Mail Sending:
+	=============
+		1 => Mail => 500 mails
+		org 
+			=> ? Limit
+		1000
+			=> ? 501
+			
+		sender
+		receiver
+		message
+		subject
+	
+	gmail:
+	======
+		account
+			-> security [2 step verification => stop]
+				-> less secure app => [ X ] 
+					=> Enable
+	
+	settings:
+	========
+	
+	EMAIL_USE_TLS = True
+	EMAIL_HOST = "smtp.gmail.com"
+	EMAIL_PORT = 587
+	EMAIL_HOST_USER = "apssdcpolytechnicinternship2@gmail.com"
+	EMAIL_HOST_PASSWORD = "xxxxxxxxxx"
 	
 	
+	https://www.youtube.com/watch?v=LBib_VdM3uE&ab_channel=SanketSawardekar
+	
+	https://www.youtube.com/watch?v=RUMohoZzNLc&list=PLEsfXFp6DpzT-1RVQVsL7C2XGMeQzfqAL&ab_channel=CodingEntrepreneurs
+	
+	https://www.youtube.com/watch?v=S_Cd7xDVgjg&list=PLCC34OHNcOtr025c1kHSPrnP18YPB-NFi&index=29&ab_channel=Codemy.com
+	
+	https://www.youtube.com/channel/UC33uwXXDrI5TxG4IXnjS28g/playlists
+	
+	https://stackoverflow.com/questions/55484888/how-to-custom-checkbox-and-radio-in-django-using-bootstrap
+	
+	https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Forms
+	
+	https://www.youtube.com/watch?v=5jWJBpS0tkg&t=369s&ab_channel=MostafaElgayar
+	
+	https://www.youtube.com/channel/UCJudQ_no4HtvdTa09L9L0ng/playlists
+	
+	https://www.youtube.com/watch?v=45SB_iI3aZc&ab_channel=HarithaComputers%26Technology
+	
+	https://www.youtube.com/watch?v=yRjteiImIWw&ab_channel=TechnologyforNoobs
+	
+	https://www.youtube.com/channel/UCQ9tJqUBoqXVBFhkhL01ZcA/playlists
+
+
+
+	https://www.youtube.com/watch?v=zg7EAwD5ZrM&ab_channel=Cairocoders
+	https://www.youtube.com/watch?v=Qc5NnpxFbBo&ab_channel=SuperCoders
+	https://www.youtube.com/watch?v=yGBk9Nalyq8&ab_channel=CodeTube
+	https://www.youtube.com/watch?v=dONi5PSU50A&ab_channel=CodeTube
+	https://www.youtube.com/watch?v=kcCYiA5mWDo&ab_channel=CodeWithMark
 	
 	
-	
-	
+	https://mdbootstrap.com/docs/b4/jquery/tables/datatables1/
 
 
 
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
+	
+	
+	
+	
+	
+	
 	
 	

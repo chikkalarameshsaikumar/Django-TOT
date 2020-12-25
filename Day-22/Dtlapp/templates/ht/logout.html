@@ -1,0 +1,10 @@
+{% extends 'ht/base.html' %}
+{% block title %} Loggedout {% endblock %}
+{% block content %}
+<div class="container">
+	<div class="card col-md-6 mt-3 mx-auto">
+		<h2 class="bg-dark text-white text-center mx-2 my-2 p-2 border rounded">Logged out</h2>
+		<h3>Are you sure you want to Login again</h3><a href="{% url 'log' %}" class="btn btn-info mb-3">Login again</a>
+	</div>
+</div>
+{% endblock %} 

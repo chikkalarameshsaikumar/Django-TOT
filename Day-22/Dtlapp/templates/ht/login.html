@@ -1,0 +1,25 @@
+{% extends 'ht/base.html' %}
+{% block title %}Login {% endblock %}
+{% block content %}
+<div class="container">
+	{% if messages %}
+	{% for j in messages %}
+	<div class="alert alert-{{j.tags}} alert-dismissible mt-2">
+  		<button type="button" class="close" data-dismiss="alert">&times;</button>
+  		{{j}}
+	</div>
+	{% endfor %}
+	{% endif %}
+	<div class="card mt-4 col-md-6 mx-auto">
+		<h2 class="bg-warning text-white text-center mx-2 my-2 p-2 border rounded">Login Here</h2>
+		<form method="post">
+			{% csrf_token %}
+			<div class="form-group mx-3">
+				<input type="text" name="username" class="form-control my-2" placeholder="Enter Your Username">
+				<input type="password" name="password" class="form-control my-2" placeholder="Enter Your Password">
+				<input type="submit" value="Login" class="btn btn-success btn-block my-2">
+			</div>
+		</form>
+	</div>
+</div>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends 'ht/base.html' %}
+{% block title %}Update{% endblock %}
+{% block content %}
+<div class="container">
+	<div class="card mt-3 col-md-7 mx-auto">
+		<h2 class="bg-secondary text-center text-white border rounded my-2 mx-2 p-2">Update</h2>
+		<div class="card-body">
+			<form method="post" enctype="multipart/form-data">
+				<!-- {{b.as_p}} -->
+				{% csrf_token %}
+				<table class="table table-borderless">
+					{% for n in b %}
+					<tr>
+						<td>{{n}}</td>
+					</tr>
+					{% endfor %}
+					{% for e in q %}
+					<tr>
+						<td>{{e}}</td>
+					</tr>
+					{% endfor %}
+				</table>
+				<input type="submit" value="Update" class="btn btn-success">
+			</form>
+		</div>
+	</div>
+</div>
+{% endblock %}
